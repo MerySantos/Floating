@@ -1,0 +1,27 @@
+/* Pon tu código css aqui */
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+
+.colores{
+width: 25%;
+height: 100px;
+float: left;
+}
+.amarillo{
+background:yellow;
+}
+.azul{
+background: blue;
+}
+.rojo{
+background: red;
+}
+body>div{
+	border: 1px solid black 
+}
+
